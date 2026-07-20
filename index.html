@@ -73,10 +73,11 @@
 
     <h2>What we collect and why</h2>
     <p><strong>Account details.</strong> Your email address and password, used solely to sign you in. Passwords are handled by our authentication provider and are never visible to us.</p>
+    <p><strong>Profile details.</strong> A display name (shown on your posts, comments and check-ins instead of your email), and optionally your home town and whether you're a driver or co-driver. None of this is required beyond a display name, and a co-driver can use the full app without ever registering a rig.</p>
     <p><strong>Rig and maintenance details.</strong> Information you enter about your vehicle — name, type, dimensions, tyres, service records, fuel fill-ups, subscriptions and documents. Stored so the app can show it back to you.</p>
     <p><strong>Location.</strong> Used, with your permission, to: attach a location to hazard reports you submit; centre the hazard map near you; find nearby campsites and LPG stations; check you in at a site; fetch local weather; and record a last-known location if you raise a stolen-rig alert. The app never tracks your location in the background.</p>
     <p><strong>Photos.</strong> Photos you choose to attach to posts, journal entries or your rig library are uploaded to our storage. Journal and rig photos are private to your account; photos on community posts are visible to other users.</p>
-    <p><strong>Content you share.</strong> Posts, comments, likes, hazard reports, hazard votes, campsite check-ins and stolen-rig alerts are visible to other users of the app (displayed with your rig name, not your email).</p>
+    <p><strong>Content you share.</strong> Posts, comments, likes, hazard reports, hazard votes, campsite check-ins and stolen-rig alerts are visible to other users of the app (displayed with your display name, not your email).</p>
 
     <h2>Where it lives</h2>
     <p>Data is stored with <strong>Supabase</strong> (our database, authentication and file-storage provider). Route lookups send your typed origin and destination to <strong>Google</strong> (Places and Directions APIs) to find and route between locations. Weather uses <strong>Open-Meteo</strong> and campsite/LPG lookups use <strong>OpenStreetMap/Overpass</strong>, both receiving approximate coordinates only — never your identity. We do not sell your data, and there is no advertising or analytics tracking in the app.</p>
